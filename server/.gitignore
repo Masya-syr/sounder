@@ -1,0 +1,28 @@
+# Зависимости
+node_modules/
+
+# Переменные окружения
+.env
+.env.*
+!.env.example
+
+# Загруженные пользователями файлы (аудио, обложки)
+uploads/*
+!uploads/.gitkeep
+
+# Логи
+logs/
+*.log
+npm-debug.log*
+
+# Сборка и кеш
+dist/
+build/
+coverage/
+.cache/
+
+# Редакторы и ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
